@@ -7,7 +7,9 @@
     background-color:#1F2937;
     color: white;
 }
-
+ header {
+    color: white;
+ }
 .links {
     display: flex;
     justify-content: space-between;
