@@ -89,6 +89,8 @@ body {
     padding: 8px;
     font-style: italic;
     font-weight: 300;
+    padding-left: 240px;
+    padding-right: 240px;
 }
 
 .signed {
