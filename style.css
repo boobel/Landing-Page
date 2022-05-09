@@ -1,0 +1,127 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 24px;
+    margin: 0px;
+    background-color:#1F2937;
+    color: white;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    flex-direction: row;
+    gap: 24px
+}
+
+.Product.overview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background-color: #1F2937;
+    color: white;
+
+}
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0px;
+}
+
+.product.button {
+    background:linear-gradient(rgb(120, 159, 230), #476e9e);
+    border-radius: 12px;
+    padding: 12px 32px;
+    color: white;
+    border: 1px;
+
+}
+.other.showcase{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.text {
+    flex-wrap: wrap;
+    padding:8px;
+    margin: 8px;
+}
+
+.other.list{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    gap: 24px;
+    padding-inline-start: -40px;
+
+}
+
+.product.icon {
+    width: 140px;
+    height: 140px;
+    margin: 16px;
+    border: 10px solid rgb(230,250,250);
+    border-color: #1F2937;
+    border-radius: 12px;
+}
+
+.other.summary {
+    text-align: center;
+    font-size:  16px;
+    font-weight: lighter;
+}
+
+.quote {
+    background:#a3a8a8;
+    text-align: center;
+    padding: 8px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.signed {
+    text-align: right;
+    margin-right: 186px;
+    font-weight: 450;
+}
+
+.message {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-size: 8px;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    background-color: #2b6cc7;
+    border-radius: 8px;
+    
+}
+
+.message.text {
+    justify-content: center;
+    margin: 0px;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-weight: lighter;
+}
